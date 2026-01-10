@@ -149,7 +149,9 @@ Then enable the following:
 
 ❗ Without these permissions, UI-TARS cannot interact with the desktop UI.
 
-📁 Repository Structure
+###📁 Repository Structure
+
+```
 Ollama-ui-agent-macos/
 ├── config/
 │   └── macos-security.yaml
@@ -157,7 +159,7 @@ Ollama-ui-agent-macos/
 │   ├── UI-interface.png
 │   └── Terminal.png
 └── README.md
-
+```
 🔐 Privacy & Offline Mode
 
 🚫 No OpenAI API calls
