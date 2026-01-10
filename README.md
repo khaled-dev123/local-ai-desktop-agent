@@ -120,30 +120,34 @@ baseUrl → local Ollama endpoint
 
 apiKey → dummy value (required but not used)
 
-##🍎 macOS Security Configuration
+## 🍎 macOS Security Configuration
 
-macOS blocks GUI automation by default.
+macOS blocks **GUI automation** by default.  
+To allow UI-TARS to control the desktop, specific permissions **must be granted manually**.
 
-This repository includes a configuration file:
+### 📄 Configuration File
+This repository includes:
 
+```text
 config/macos-security.yaml
+```
+⚙️ Required Permissions
 
-
-You must manually grant permissions in:
+Open:
 
 System Settings → Privacy & Security
 
-Required permissions:
+Then enable the following:
 
-Accessibility
+🧩 Accessibility
 
-Screen Recording
+🎥 Screen Recording
 
-Automation
+🤖 Automation
 
-(Optional) Full Disk Access
+📂 Full Disk Access (optional, but recommended)
 
-Without these permissions, UI-TARS cannot control the desktop.
+❗ Without these permissions, UI-TARS cannot interact with the desktop UI.
 
 📁 Repository Structure
 Ollama-ui-agent-macos/
@@ -158,8 +162,10 @@ Ollama-ui-agent-macos/
 
 🚫 No OpenAI API calls
 
-🚫 No cloud dependency
+☁️ No cloud dependency
 
 🔒 All inference runs locally
 
 🧠 Full control over the model and data
+
+<p align="center"> <b>Privacy-first. Offline-ready. Fully local AI.</b> 🚀 </p> ```
