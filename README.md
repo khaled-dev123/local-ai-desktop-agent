@@ -170,4 +170,4 @@ Ollama-ui-agent-macos/
 
 🧠 Full control over the model and data
 
-<p align="center"> <b>Privacy-first. Offline-ready. Fully local AI.</b> 🚀 </p> ```
+<p align="center"> <b>Privacy-first. Offline-ready. Fully local AI.</b> 🚀 </p> 
