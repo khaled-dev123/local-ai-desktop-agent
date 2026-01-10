@@ -47,12 +47,12 @@ via an OpenAI-compatible endpoint.
 
 ### 🧩 UI-TARS Desktop Interface
 <p align="center">
-  <img src="images/UI-interface.png" width="85%" alt="UI-TARS Interface">
+  <img src="Ollama-ui-agent-macos/images/UI-interface.png" width="85%" alt="UI-TARS Interface">
 </p>
 
 ### 🖥️ Running from Terminal
 <p align="center">
-  <img src="images/Terminal.png" width="85%" alt="UI-TARS Terminal">
+  <img src="Ollama-ui-agent-macos/images/Terminal.png" width="85%" alt="UI-TARS Terminal">
 </p>
 
 ---
