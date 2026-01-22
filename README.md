@@ -149,7 +149,7 @@ Then enable the following:
 
 ❗ Without these permissions, UI-TARS cannot interact with the desktop UI.
 
-###📁 Repository Structure
+### 📁 Repository Structure
 
 ```
 Ollama-ui-agent-macos/
